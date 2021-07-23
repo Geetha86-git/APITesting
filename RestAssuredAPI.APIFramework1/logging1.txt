@@ -1,0 +1,77 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 34.5567,
+        "lng": 35.667
+    },
+    "accuracy": 50,
+    "name": "Geetha",
+    "phone_number": "99867545",
+    "address": "DGL",
+    "website": "learners.java.com",
+    "language": "Eng",
+    "types": [
+        "sock",
+        "park"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Tue, 13 Jul 2021 17:23:34 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "354a3a4e0340514339dfd864d690953c",
+    "scope": "APP",
+    "reference": "90c7e34e049e01ee029caa8415b985f790c7e34e049e01ee029caa8415b985f7",
+    "id": "90c7e34e049e01ee029caa8415b985f7"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "354a3a4e0340514339dfd864d690953c"
+}
+HTTP/1.1 200 OK
+Date: Tue, 13 Jul 2021 17:23:35 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}

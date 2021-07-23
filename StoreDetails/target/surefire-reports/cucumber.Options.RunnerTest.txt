@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.5 sec <<< FAILURE!
+Verify whether able to add a new pet to the Store(To Validate PET Store APIs)  Time elapsed: 11.799 sec  <<< ERROR!
+java.lang.NullPointerException
+	at resources.Coreutils.getRequestedString(Coreutils.java:40)
+	at StepDefinitions.stepFile.validate_whether_the_addded_is_same_the_id_retrieved_using(stepFile.java:59)
+	at ?.Validate whether the 285 addded is same the id retrieved using "GetPetAPIByID"(file:///D:/java_learning/StoreDetails/src/test/java/features/StoreValidations.feature:8)
+
